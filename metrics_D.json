@@ -1,0 +1,13 @@
+{
+    "message_count": {
+        "ELECTION": 19,
+        "COORDINATOR": 3,
+        "OK": 15,
+        "HEARTBEAT": 7
+    },
+    "election_count": 5,
+    "avg_election_time": 0.00030493736267089844,
+    "all_election_times": [
+        0.00030493736267089844
+    ]
+}
