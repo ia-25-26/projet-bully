@@ -1,9 +1,9 @@
-{"timestamp": 1777455017.7029517, "event_type": "LEADER_ELECTED", "node_id": 5, "details": "New leader"}
-{"timestamp": 1777455018.6943586, "event_type": "CRASH", "node_id": 5, "details": ""}
-{"timestamp": 1777455021.7050653, "event_type": "LEADER_ELECTED", "node_id": 4, "details": "New leader"}
-{"timestamp": 1777455033.697086, "event_type": "CRASH", "node_id": 4, "details": ""}
-{"timestamp": 1777455035.7084167, "event_type": "LEADER_ELECTED", "node_id": 3, "details": "New leader"}
-{"timestamp": 1777455048.700356, "event_type": "CRASH", "node_id": 3, "details": ""}
-{"timestamp": 1777455051.7088575, "event_type": "LEADER_ELECTED", "node_id": 2, "details": "New leader"}
-{"timestamp": 1777455063.742571, "event_type": "CRASH", "node_id": 1, "details": ""}
-{"timestamp": 1777455063.7449844, "event_type": "CRASH", "node_id": 2, "details": ""}
+{"timestamp": 1778791416.1471195, "event_type": "LEADER_ELECTED", "node_id": 5, "details": "New leader"}
+{"timestamp": 1778791417.1352487, "event_type": "CRASH", "node_id": 5, "details": ""}
+{"timestamp": 1778791420.143471, "event_type": "LEADER_ELECTED", "node_id": 4, "details": "New leader"}
+{"timestamp": 1778791432.1373086, "event_type": "CRASH", "node_id": 4, "details": ""}
+{"timestamp": 1778791434.1504233, "event_type": "LEADER_ELECTED", "node_id": 3, "details": "New leader"}
+{"timestamp": 1778791447.1414115, "event_type": "CRASH", "node_id": 3, "details": ""}
+{"timestamp": 1778791450.1519895, "event_type": "LEADER_ELECTED", "node_id": 2, "details": "New leader"}
+{"timestamp": 1778791462.1449025, "event_type": "CRASH", "node_id": 1, "details": ""}
+{"timestamp": 1778791462.1454492, "event_type": "CRASH", "node_id": 2, "details": ""}

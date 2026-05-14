@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  # Service principal pour exécuter tous les scénarios
+  bully-simulator:
+    build: .
+    container_name: bully-cluster-simulator
+    volumes:
+      # Monter les logs et métriques pour les récupérer après exécution
+      - ./results:/app/results
+      - ./logs:/app/logs
+    environment:
+      - PYTHONIOENCODING=utf-8
+      - PYTHONUNBUFFERED=1
+    # Répertoire de travail
+    working_dir: /app
+    # Commande pour exécuter tous les scénarios
+    command: python main.py
+    # Mode interactif pour voir la sortie console
+    stdin_open: true
+    tty: true
+
+  # Service pour exécuter un scénario spécifique via make-scenario
+  scenario-a:
+    build: .
+    container_name: bully-scenario-a
+    volumes:
+      - ./results:/app/results
+    environment:
+      - PYTHONIOENCODING=utf-8
+    command: python -c "from main import scenario_A; scenario_A()"
+
+  scenario-b:
+    build: .
+    container_name: bully-scenario-b
+    volumes:
+      - ./results:/app/results
+    environment:
+      - PYTHONIOENCODING=utf-8
+    command: python -c "from main import scenario_B; scenario_B()"
+
+  scenario-c:
+    build: .
+    container_name: bully-scenario-c
+    volumes:
+      - ./results:/app/results
+    environment:
+      - PYTHONIOENCODING=utf-8
+    command: python -c "from main import scenario_C; scenario_C()"
+
+  scenario-d:
+    build: .
+    container_name: bully-scenario-d
+    volumes:
+      - ./results:/app/results
+    environment:
+      - PYTHONIOENCODING=utf-8
+    command: python -c "from main import scenario_D; scenario_D()"
+
+  scenario-e:
+    build: .
+    container_name: bully-scenario-e
+    volumes:
+      - ./results:/app/results
+    environment:
+      - PYTHONIOENCODING=utf-8
+    command: python -c "from main import scenario_E; scenario_E()"
+
+  scenario-f:
+    build: .
+    container_name: bully-scenario-f
+    volumes:
+      - ./results:/app/results
+    environment:
+      - PYTHONIOENCODING=utf-8
+    command: python -c "from main import scenario_F; scenario_F()"

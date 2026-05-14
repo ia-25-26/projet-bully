@@ -2,12 +2,12 @@
     "message_count": {
         "ELECTION": 20,
         "OK": 20,
-        "COORDINATOR": 5,
-        "HEARTBEAT": 28
+        "COORDINATOR": 4,
+        "HEARTBEAT": 32
     },
     "election_count": 5,
-    "avg_election_time": 0.0012667179107666016,
+    "avg_election_time": 9.608268737792969e-05,
     "all_election_times": [
-        0.0012667179107666016
+        9.608268737792969e-05
     ]
 }
