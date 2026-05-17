@@ -1,16 +1,173 @@
 {
+    "scenario": "F",
     "message_count": {
-        "ELECTION": 40,
-        "OK": 40,
         "COORDINATOR": 14,
-        "HEARTBEAT": 48
+        "ELECTION": 20,
+        "OK": 20,
+        "HEARTBEAT": 21
     },
-    "election_count": 14,
-    "avg_election_time": 0.00033652782440185547,
-    "all_election_times": [
-        0.0002574920654296875,
-        0.0003464221954345703,
-        0.0004367828369140625,
-        0.00030541419982910156
+    "total_elections": 10,
+    "successful_elections": 4,
+    "failed_elections": 0,
+    "running_elections": 6,
+    "election_success_rate": 0.4,
+    "average_convergence": 0.016692936420440674,
+    "elections": [
+        {
+            "election_id": "8c6f8b63-274c-41de-9642-7ba4ff53d9c0",
+            "candidate_id": 5,
+            "leader_id": 5,
+            "status": "success",
+            "success": true,
+            "started_at": 1779041129.9202127,
+            "ended_at": 1779041129.9350443,
+            "duration": 0.01483154296875,
+            "messages_total": 5,
+            "messages_by_type": {
+                "COORDINATOR": 5
+            },
+            "failure_reason": null
+        },
+        {
+            "election_id": "e3cb4555-c5a2-4310-8eea-4fb586966bce",
+            "candidate_id": 1,
+            "leader_id": null,
+            "status": "running",
+            "success": false,
+            "started_at": 1779041139.9196286,
+            "ended_at": null,
+            "duration": null,
+            "messages_total": 12,
+            "messages_by_type": {
+                "ELECTION": 6,
+                "OK": 6
+            },
+            "failure_reason": null
+        },
+        {
+            "election_id": "5d252d67-8bda-47db-ba75-c1b1bae6fb3d",
+            "candidate_id": 2,
+            "leader_id": null,
+            "status": "running",
+            "success": false,
+            "started_at": 1779041139.9219592,
+            "ended_at": null,
+            "duration": null,
+            "messages_total": 8,
+            "messages_by_type": {
+                "ELECTION": 4,
+                "OK": 4
+            },
+            "failure_reason": null
+        },
+        {
+            "election_id": "1b41566c-183d-4490-8bb3-4ef1dce2c83b",
+            "candidate_id": 3,
+            "leader_id": null,
+            "status": "running",
+            "success": false,
+            "started_at": 1779041139.926538,
+            "ended_at": null,
+            "duration": null,
+            "messages_total": 4,
+            "messages_by_type": {
+                "ELECTION": 2,
+                "OK": 2
+            },
+            "failure_reason": null
+        },
+        {
+            "election_id": "74825428-1a27-487a-aacc-d688f842d764",
+            "candidate_id": 4,
+            "leader_id": 4,
+            "status": "success",
+            "success": true,
+            "started_at": 1779041139.9293907,
+            "ended_at": 1779041139.9647734,
+            "duration": 0.035382747650146484,
+            "messages_total": 4,
+            "messages_by_type": {
+                "COORDINATOR": 4
+            },
+            "failure_reason": null
+        },
+        {
+            "election_id": "b56fa438-0b7d-44cb-ad6f-6f4c3b0018b0",
+            "candidate_id": 1,
+            "leader_id": null,
+            "status": "running",
+            "success": false,
+            "started_at": 1779041153.9204679,
+            "ended_at": null,
+            "duration": null,
+            "messages_total": 8,
+            "messages_by_type": {
+                "ELECTION": 4,
+                "OK": 4
+            },
+            "failure_reason": null
+        },
+        {
+            "election_id": "2b686895-d34d-4643-a22f-8f21347ed3cc",
+            "candidate_id": 2,
+            "leader_id": null,
+            "status": "running",
+            "success": false,
+            "started_at": 1779041153.924018,
+            "ended_at": null,
+            "duration": null,
+            "messages_total": 4,
+            "messages_by_type": {
+                "ELECTION": 2,
+                "OK": 2
+            },
+            "failure_reason": null
+        },
+        {
+            "election_id": "204b3b53-33bc-475c-b919-a9a0e1e492d2",
+            "candidate_id": 3,
+            "leader_id": 3,
+            "status": "success",
+            "success": true,
+            "started_at": 1779041153.9274104,
+            "ended_at": 1779041153.9388468,
+            "duration": 0.01143646240234375,
+            "messages_total": 3,
+            "messages_by_type": {
+                "COORDINATOR": 3
+            },
+            "failure_reason": null
+        },
+        {
+            "election_id": "f41d5719-ae49-45c1-8b7e-647343e26ed5",
+            "candidate_id": 1,
+            "leader_id": null,
+            "status": "running",
+            "success": false,
+            "started_at": 1779041169.9275925,
+            "ended_at": null,
+            "duration": null,
+            "messages_total": 4,
+            "messages_by_type": {
+                "ELECTION": 2,
+                "OK": 2
+            },
+            "failure_reason": null
+        },
+        {
+            "election_id": "7dc36ce2-47a1-4239-b2aa-f651b7138fe7",
+            "candidate_id": 2,
+            "leader_id": 2,
+            "status": "success",
+            "success": true,
+            "started_at": 1779041169.9340146,
+            "ended_at": 1779041169.9391356,
+            "duration": 0.005120992660522461,
+            "messages_total": 2,
+            "messages_by_type": {
+                "COORDINATOR": 2
+            },
+            "failure_reason": null
+        }
     ]
 }
