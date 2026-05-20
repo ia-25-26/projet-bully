@@ -9,17 +9,17 @@
     "failed_elections": 0,
     "running_elections": 0,
     "election_success_rate": 1.0,
-    "average_convergence": 0.0077512264251708984,
+    "average_convergence": 0.008239030838012695,
     "elections": [
         {
-            "election_id": "4f762e56-0b52-464f-877c-f27e1299059b",
+            "election_id": "056e1cfa-8dc5-4419-aa21-27a68f3824b1",
             "candidate_id": 5,
             "leader_id": 5,
             "status": "success",
             "success": true,
-            "started_at": 1779041042.6625884,
-            "ended_at": 1779041042.6703396,
-            "duration": 0.0077512264251708984,
+            "started_at": 1779269304.7330718,
+            "ended_at": 1779269304.7413108,
+            "duration": 0.008239030838012695,
             "messages_total": 5,
             "messages_by_type": {
                 "COORDINATOR": 5

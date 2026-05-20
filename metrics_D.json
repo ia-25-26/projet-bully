@@ -1,28 +1,28 @@
 {
     "scenario": "D",
     "message_count": {
-        "COORDINATOR": 3,
-        "HEARTBEAT": 6
+        "COORDINATOR": 5,
+        "HEARTBEAT": 7
     },
     "total_elections": 1,
     "successful_elections": 1,
     "failed_elections": 0,
     "running_elections": 0,
     "election_success_rate": 1.0,
-    "average_convergence": 0.017287731170654297,
+    "average_convergence": 0.012342214584350586,
     "elections": [
         {
-            "election_id": "fc5354ac-f59f-4a81-b50e-928777aa49aa",
+            "election_id": "884dcbad-7abe-4495-acce-2d054f1ad791",
             "candidate_id": 5,
             "leader_id": 5,
             "status": "success",
             "success": true,
-            "started_at": 1779041096.7744992,
-            "ended_at": 1779041096.791787,
-            "duration": 0.017287731170654297,
-            "messages_total": 3,
+            "started_at": 1779269358.8179524,
+            "ended_at": 1779269358.8302946,
+            "duration": 0.012342214584350586,
+            "messages_total": 5,
             "messages_by_type": {
-                "COORDINATOR": 3
+                "COORDINATOR": 5
             },
             "failure_reason": null
         }

@@ -11,17 +11,17 @@
     "failed_elections": 0,
     "running_elections": 1,
     "election_success_rate": 0.6666666666666666,
-    "average_convergence": 0.020642638206481934,
+    "average_convergence": 0.015908479690551758,
     "elections": [
         {
-            "election_id": "319ab5e1-7e33-41cf-84ef-1c7eaeead140",
+            "election_id": "cf070599-5244-4661-a3fc-b8500e2a78dc",
             "candidate_id": 5,
             "leader_id": 5,
             "status": "success",
             "success": true,
-            "started_at": 1779041105.8638415,
-            "ended_at": 1779041105.8750324,
-            "duration": 0.01119089126586914,
+            "started_at": 1779269367.8469155,
+            "ended_at": 1779269367.856018,
+            "duration": 0.009102582931518555,
             "messages_total": 5,
             "messages_by_type": {
                 "COORDINATOR": 5
@@ -29,12 +29,12 @@
             "failure_reason": null
         },
         {
-            "election_id": "f21813e3-bdd8-490c-8bda-3f3d729d7439",
+            "election_id": "8ebe7bea-c965-4ed8-905c-4160b920c950",
             "candidate_id": 1,
             "leader_id": null,
             "status": "running",
             "success": false,
-            "started_at": 1779041115.8657427,
+            "started_at": 1779269377.8489525,
             "ended_at": null,
             "duration": null,
             "messages_total": 4,
@@ -45,14 +45,14 @@
             "failure_reason": null
         },
         {
-            "election_id": "5010737d-2fd4-4883-b68a-8b9200258862",
+            "election_id": "eeaa45f3-cad5-45ef-b320-ad299c78286f",
             "candidate_id": 2,
             "leader_id": 2,
             "status": "success",
             "success": true,
-            "started_at": 1779041115.8695295,
-            "ended_at": 1779041115.8996239,
-            "duration": 0.030094385147094727,
+            "started_at": 1779269377.8512843,
+            "ended_at": 1779269377.8739986,
+            "duration": 0.02271437644958496,
             "messages_total": 2,
             "messages_by_type": {
                 "COORDINATOR": 2
