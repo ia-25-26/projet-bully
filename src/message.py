@@ -4,8 +4,11 @@ import uuid
 
 
 class Message:
+    """Serializable message exchanged by nodes through the simulated network."""
+
     def __init__(self, msg_type, sender_id, target_id=None, election_id=None, payload=None):
-        self.type = msg_type  # ELECTION, OK, COORDINATOR, HEARTBEAT, ALIVE
+        """Create a message with stable IDs for tracing and deduplication."""
+        self.type = msg_type
         self.sender_id = sender_id
         self.target_id = target_id
         self.timestamp = time.time()
@@ -14,6 +17,7 @@ class Message:
         self.payload = payload or {}
 
     def to_dict(self):
+        """Return a JSON-ready representation of the message."""
         return {
             "type": self.type,
             "sender_id": self.sender_id,
@@ -25,10 +29,12 @@ class Message:
         }
 
     def to_json(self):
+        """Serialize the message to a JSON string."""
         return json.dumps(self.to_dict())
 
     @staticmethod
     def from_json(json_str):
+        """Deserialize a message while preserving timestamp and msg_id."""
         data = json.loads(json_str)
         msg = Message(
             msg_type=data["type"],
